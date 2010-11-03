@@ -32,7 +32,7 @@ My PhD thesis is available [here](http://stefanhaflidason.files.wordpress.com/20
 
 ## Experience
 
-### Horiba, Kyoto, Japan
+### Horiba (Kyoto, Japan)
 
 #### Software Developer
 
@@ -40,7 +40,7 @@ My PhD thesis is available [here](http://stefanhaflidason.files.wordpress.com/20
 
 At Horiba I conducted research into how Linux could be used in future Horiba medical products. In doing so I experimented with building an embedded Linux distribution and cross-compile toolchain for running multi-lingual applications on ARM devices.
 
-### Concept Systems Ltd., Edinburgh, Scotland.
+### Concept Systems Ltd. (Edinburgh, Scotland)
 
 #### Software Developer
 
@@ -53,7 +53,7 @@ In the first instance I worked for one year as an intern, and later returned for
  * Developed a customised version of TWiki to be used for the collaborative documenting of software products. This resulted in a small contribution back to the TWiki community.
  * Worked on both the backend and frontend of a web interface to a complex oil exploration system. Considerable time was spent on the optimisation of this interface to handle and display large amounts of production data.
 
-#### Summer 2006
+##### Summer 2006
 
  * Effected a huge speedup in a database driven graphing application by optimising the database structure, in particular using sharding to dramatically reduce query execution times.
  * Refactored another graphing application to produce EPS instead of PNG output, improving the quality of the output and simultaneously solving several bugs related to plot placement.
