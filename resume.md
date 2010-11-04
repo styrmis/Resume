@@ -1,8 +1,6 @@
-# Nathaniel Welch
+# Stefan Haflidason
 
- * <nat@natwelch.com>
- * <http://natwelch.com>
- * 707-799-8675
+ * <stefan@stallic.com>
 
 ## Background
 
@@ -12,56 +10,44 @@ I strive to be a quick learner and both a competent leader and capable worker. I
 
 ## Education
 
-Computer Science, B.S.  
-Fall 2006 - Spring 2011  
-California Polytechnic State University, San Luis Obispo  
+Computer Science with Industrial Experience, BSc (2002-2006)
+Computer Science, PhD (2007-2010),
+University of Manchester, United Kingdom
 
-## Proficiency
+## Research
 
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
+**Publications**
+
+ * Stefan Haflidason and Richard Neville <i>“Quantifying the Severity of the Permutation Problem in Neuroevolution”</i>, In Proceedings of the Fourth International Workshop on Natural Computing (IWNC), pages 149-156, 2009.
+ * Stefan Haflidason and Richard Neville <i>“On the Significance of the Permutation Problem in Neuroevolution”</i>, In Proceed-
+ings of the 11th Annual conference on Genetic and Evolutionary Computation (GECCO), pages 787-794, 2009. <b>Nominated for Best Paper in the Genetic Algorithms track</b>.
+ * Stefan Haflidason and Richard Neville <i>“A Case for Crossover in Neuroevolution”</i>, In Proceedings of the Workshop and
+Summer School on Evolutionary Computing, Lecture Series by Pioneers (WSSEC), 2008.
+
+My PhD thesis is available [here](http://stefanhaflidason.files.wordpress.com/2009/02/thesis.pdf).
 
 ## Experience
 
-### Google.com, San Francisco, CA
+### Horiba (Kyoto, Japan)
 
-#### Site Reliability Engineer - April 2012 to Present
+#### Autumn 2006
 
-I work as an SRE for Google Compute Engine and Google Cloud Storage.
+At Horiba I conducted research into how Linux could be used in future Horiba medical products. In doing so I experimented with building an embedded Linux distribution and cross-compile toolchain for running multi-lingual applications on ARM devices.
 
-#### Software Engineer - August 2011 to Present 
+### Concept Systems Ltd. (Edinburgh, Scotland)
 
-I continue to maintain Punchd, post-acquisition.
+#### Software Developer
 
-### Punchd, Mountain View, CA
+##### Autumn 2004-2005
 
-#### Software Developer - May 2011 to July 2012
+* Produced and deployed a public-facing web service and site for EPSG geodetic data.
+ * Maintained a multi-platform database migration tool (MS Access to MySQL, Postgres and Oracle).
+ * Developed a customised version of TWiki to be used for the collaborative documenting of software products. This resulted in a small contribution back to the TWiki community.
+ * Worked on both the backend and frontend of a web interface to a complex oil exploration system. Considerable time was spent on the optimisation of this interface to handle and display large amounts of production data.
 
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
+##### Summer 2006
 
-### iFixit.com, San Luis Obispo CA
-
-#### Software Developer - April 2009 to April 2011
-
-I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service. 
-
- * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
- * Helped maintain various servers, located on Amazon EC2, and local development machines
- * Developed the first JavaScript widget for iFixit's API.
- * Redefined iFixit's developer work flow
-
-### Adobe Systems Incorporated, San Francisco CA
-
-#### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
-
- * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
- * Helped maintain the Server Matrix, Bug-base, and test a new test case application
- * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
-
-### BSA Camp Oljato, Lakeshore CA
-
-#### Nature Director - Summer 2006
-#### Camp Counselor - Summer 2002, 2003 and 2004
-
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
+ * Effected a huge speedup in a database driven graphing application by optimising the database structure, in particular using sharding to dramatically reduce query execution times.
+ * Refactored another graphing application to produce EPS instead of PNG output, improving the quality of the output and simultaneously solving several bugs related to plot placement.
+ * Effected a considerable speedup in the custom TWiki instance used for internal documentation by isolating and removing an issue which caused the site to render extremely slowly.
 
