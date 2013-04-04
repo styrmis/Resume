@@ -53,7 +53,7 @@ At Horiba I conducted research into how Linux could be used in future Horiba med
 ##### Autumn 2004-2005
 
 * Produced and deployed a public-facing web service and site for EPSG geodetic data.
- * Maintained a multi-platform database migration tool (MS Access to MySQL, Postgres and Oracle).
+* Maintained a multi-platform database migration tool (MS Access to MySQL, Postgres and Oracle).
  * Developed a customised version of TWiki to be used for the collaborative documenting of software products. This resulted in a small contribution back to the TWiki community.
  * Worked on both the backend and frontend of a web interface to a complex oil exploration system. Considerable time was spent on the optimisation of this interface to handle and display large amounts of production data.
 
