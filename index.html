@@ -1,90 +1,119 @@
 <!DOCTYPE html>
+<!--
+            _.-"""-,
+          .'  ..::. `\
+         /  .::' `'` /
+        / .::' ..-/=;
+        | ::' /  C ..\
+        | :: |   \  _.)
+         \ ':|   /  \
+          '-, \./ \)\)
+             `-|   );/
+                '-''-'
+-->
 <html>
-   <head>
-      <title>Stefan Haflidason's Resume</title>
-      <meta name="author" content="Stefan Haflidason">
-      <meta charset="utf-8">
-      <link href="print.css" media="print" rel="stylesheet" type="text/css" />
-      <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
-      <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'Stefan Haflidason']);
-        _gaq.push(['_trackPageview']);
+  <head>
+    <title>Stefan Haflidason's Resume</title>
+    <meta name="author" content="Stefan Haflidason">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico">
 
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      </script>
-   </head>
-   <body>
-      <div id="resume">
-         <h1>Stefan Haflidason</h1>
+    <!-- http://lesscss.org/ -->
+    <link href="print.less" media="print" rel="stylesheet/less" type="text/css" />
+    <link href="style.less" media="screen" rel="stylesheet/less" type="text/css" />
+    <script src="less-1.1.3.min.js" type="text/javascript"></script>
 
-<ul>
-<li><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#58;&#x73;&#x74;&#101;&#x66;&#97;&#110;&#x40;&#115;&#x74;&#x61;&#108;&#108;&#x69;&#x63;&#x2e;&#99;&#x6f;&#109;">&#115;&#x74;&#101;&#x66;&#x61;&#x6e;&#64;&#x73;&#x74;&#97;&#x6c;&#x6c;&#105;&#x63;&#46;&#x63;&#111;&#109;</a></li>
-</ul>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="resume">
+      # Stefan Haflidason, PhD.
+
+ * <stefan@haflidason.com>
+
+## Education
+
+* Computer Science, PhD (2007-2010), University of Manchester, England.
+* Computer Science with Industrial Experience, BSc (2002-2006), University of Manchester, England.
+* George Watson's College, Edinburgh, Scotland.
+
+## Research
+
+**Publications**
+
+ * Stefan Haflidason and Richard Neville <i>“Quantifying the Severity of the Permutation Problem in Neuroevolution”</i>, In Proceedings of the Fourth International Workshop on Natural Computing (IWNC), pages 149-156, 2009.
+ * Stefan Haflidason and Richard Neville <i>“On the Significance of the Permutation Problem in Neuroevolution”</i>, In Proceed-
+ings of the 11th Annual conference on Genetic and Evolutionary Computation (GECCO), pages 787-794, 2009. <b>Nominated for Best Paper in the Genetic Algorithms track</b>.
+ * Stefan Haflidason and Richard Neville <i>“A Case for Crossover in Neuroevolution”</i>, In Proceedings of the Workshop and
+Summer School on Evolutionary Computing, Lecture Series by Pioneers (WSSEC), 2008.
+
+My PhD thesis is available [here](http://stefanhaflidason.files.wordpress.com/2009/02/thesis.pdf).
+
+## Experience
+
+### Lingo Network (Osaka, Japan)
+
+#### Senior Developer (February 2012-Present)
+
+At Lingo I have primarily been working on a system which helps teachers to tailor the curriculum to their students, spotting problems such as:
+
+* Students who are struggling or are particularly weak in one area,
+* Teachers covering the same topics without realising,
+* Students who are studying below their actual level.
+
+This is important because usually the curriculum is only changed at the end of the school year—while this may help the next year, the opportunity to help the current year has been missed. Also, despite best efforts you will always have students at different levels in the same class; the system allows students to find others in the class who are similar to themselves.
+
+### Ericsson Japan (Yokohama, Japan)
+
+#### Technical Consultant (February 2012-October 2012)
+
+At Ericsson I worked on a large-scale reporting system which retrieves, stores and aggregates data from the mobile network and turns it into actionable reports for telecomms engineers to use in their optimisation work. The focus of my work was on early detection of problems with the data pipeline with the aim of minimising downtime.
+
+### Horiba (Kyoto, Japan)
+
+#### Autumn 2006
+
+At Horiba I conducted research into how Linux could be used in future Horiba medical products. In doing so I experimented with building an embedded Linux distribution and cross-compile toolchain for running multi-lingual applications on ARM devices.
+
+### Concept Systems Ltd. (Edinburgh, Scotland)
+
+#### Software Developer
+
+##### Autumn 2004-2005
+
+* Produced and deployed a public-facing web service and site for EPSG geodetic data.
+* Maintained a multi-platform database migration tool (MS Access to MySQL, Postgres and Oracle).
+ * Developed a customised version of TWiki to be used for the collaborative documenting of software products. This resulted in a small contribution back to the TWiki community.
+ * Worked on both the backend and frontend of a web interface to a complex oil exploration system. Considerable time was spent on the optimisation of this interface to handle and display large amounts of production data.
+
+##### Summer 2006
+
+ * Effected a huge speedup in a database driven graphing application by optimising the database structure, in particular using sharding to dramatically reduce query execution times.
+ * Refactored another graphing application to produce EPS instead of PNG output, improving the quality of the output and simultaneously solving several bugs related to plot placement.
+ * Effected a considerable speedup in the custom TWiki instance used for internal documentation by isolating and removing an issue which caused the site to render extremely slowly.
+
+## Projects
+
+### Volunteer Registration System for Disaster Relief Charity in Japan (INJM)
+
+ While working with a volunteer organisation in Tohoku Japan in 2011 I noticed that replying to queries from people who wanted to volunteer, and arranging when they could come, if they needed to be picked up from the station etc. was adding a large admin overhead to the work of the staff. I built a volunteer registration system that allows staff to specify exactly how many places are available each day—potential volunteers can then apply for these places online with little or no intervention from staff. On application, staff get an email and the online calendar is updated.
+
+ The system also doubles up as a work-reporting system which helps staff to prepare applications for funding, eliminating tedious calculations of how many volunteer-hours have been worked through the organisation. At time of writing (4th April 2013) the system has recorded more than **28,400** volunteer hours for the disaster relief effort in Japan.
+
+ The system is online [here](http://volunteer.itsnotjustmud.com).
 
 
-<h2>Education</h2>
-
-<p>Computer Science with Industrial Experience, BSc (2002-2006)
-Computer Science, PhD (2007-2010),
-University of Manchester, United Kingdom</p>
-
-<h2>Research</h2>
-
-<p><strong>Publications</strong></p>
-
-<ul>
-<li>Stefan Haflidason and Richard Neville <i>“Quantifying the Severity of the Permutation Problem in Neuroevolution”</i>, In Proceedings of the Fourth International Workshop on Natural Computing (IWNC), pages 149-156, 2009.</li>
-<li>Stefan Haflidason and Richard Neville <i>“On the Significance of the Permutation Problem in Neuroevolution”</i>, In Proceed-
-ings of the 11th Annual conference on Genetic and Evolutionary Computation (GECCO), pages 787-794, 2009. <b>Nominated for Best Paper in the Genetic Algorithms track</b>.</li>
-<li>Stefan Haflidason and Richard Neville <i>“A Case for Crossover in Neuroevolution”</i>, In Proceedings of the Workshop and
-Summer School on Evolutionary Computing, Lecture Series by Pioneers (WSSEC), 2008.</li>
-</ul>
-
-
-<p>My PhD thesis is available <a href="http://stefanhaflidason.files.wordpress.com/2009/02/thesis.pdf">here</a>.</p>
-
-<h2>Experience</h2>
-
-<h3>Horiba (Kyoto, Japan)</h3>
-
-<h4>Software Developer</h4>
-
-<h4>Autumn 2006</h4>
-
-<p>At Horiba I conducted research into how Linux could be used in future Horiba medical products. In doing so I experimented with building an embedded Linux distribution and cross-compile toolchain for running multi-lingual applications on ARM devices.</p>
-
-<h3>Concept Systems Ltd. (Edinburgh, Scotland)</h3>
-
-<h4>Software Developer</h4>
-
-<h5>Autumn 2004-2005</h5>
-
-<p>In the first instance I worked for one year as an intern, and later returned for the summer after graduating. During this time I:</p>
-
-<ul>
-<li>Produced and deployed a public-facing web service and site for EPSG geodetic data.</li>
-<li>Maintained a multi-platform database migration tool (MS Access to MySQL, Postgres and Oracle).</li>
-<li>Developed a customised version of TWiki to be used for the collaborative documenting of software products. This resulted in a small contribution back to the TWiki community.</li>
-<li>Worked on both the backend and frontend of a web interface to a complex oil exploration system. Considerable time was spent on the optimisation of this interface to handle and display large amounts of production data.</li>
-</ul>
-
-
-<h5>Summer 2006</h5>
-
-<ul>
-<li>Effected a huge speedup in a database driven graphing application by optimising the database structure, in particular using sharding to dramatically reduce query execution times.</li>
-<li>Refactored another graphing application to produce EPS instead of PNG output, improving the quality of the output and simultaneously solving several bugs related to plot placement.</li>
-<li>Effected a considerable speedup in the custom TWiki instance used for internal documentation by isolating and removing an issue which caused the site to render extremely slowly.</li>
-</ul>
-
-
-
-         <small class="download">Download as <a href="resume.txt">plain text</a>.</small>
-      </div>
-   </body>
+      <small class="download">Download as <a href="resume.txt">plain text</a>.</small>
+    </div>
+  </body>
 </html>
